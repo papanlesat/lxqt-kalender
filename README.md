@@ -15,6 +15,9 @@ Hari libur ditandai dengan teks **merah** dan **bold**.
 
 ---
 
+## preview
+![screenshot](images/screen.jpg)
+
 ## Prasyarat
 
 - Go minimal versi 1.16  
