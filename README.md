@@ -30,7 +30,7 @@ Hari libur ditandai dengan teks **merah** dan **bold**.
 
     ```bash
     git clone https://github.com/papanlesat/lxqt-kalender.git
-    cd lxqt-calendar
+    cd lxqt-kalender
     ```
 
 2. Aktifkan modul dan unduh dependensi:
@@ -59,7 +59,7 @@ sudo chmod +x /usr/local/bin/calendar
 
 ### 2. Buat file shortcut `.desktop`
 
-Buat file `~/.local/share/applications/lxqt-calendar.desktop` dengan isi berikut:
+Buat file `~/.local/share/applications/lxqt-kalender.desktop` dengan isi berikut:
 
 ```ini
 [Desktop Entry]
@@ -116,7 +116,7 @@ calendar --debug
 ## Struktur Proyek
 
 ```
-lxqt-calendar/
+lxqt-kalender/
 ├─ go.mod
 ├─ main.go
 ├─ applier.go
