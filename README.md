@@ -99,7 +99,7 @@ StartupNotify=true
 Jalankan langsung dari terminal:
 
 ```bash
-calendar
+idKalender
 ```
 
 atau dari menu aplikasi setelah membuat shortcut.
@@ -112,19 +112,6 @@ Untuk melihat log debug jalankan:
 
 ```bash
 idKalender --debug
-```
-
----
-
-## Struktur Proyek
-
-```
-lxqt-kalender/
-├─ go.mod
-├─ main.go
-├─ applier.go
-├─ watcher.go
-├─ README.md
 ```
 
 ---
