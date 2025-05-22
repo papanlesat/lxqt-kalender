@@ -29,7 +29,7 @@ Hari libur ditandai dengan teks **merah** dan **bold**.
 1. Clone repo:
 
     ```bash
-    git clone https://github.com/username/lxqt-calendar.git
+    git clone https://github.com/papanlesat/lxqt-kalender.git
     cd lxqt-calendar
     ```
 
