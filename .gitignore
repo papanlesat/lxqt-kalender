@@ -1,0 +1,33 @@
+# Binaries
+/calendar
+*.exe
+*.out
+
+# Qt deployment folders
+/deploy
+/qtdeploy
+/qtbox
+/build
+/dist
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Go build artifacts
+*.test
+*.prof
+*.coverprofile
+
+# IDE/editor config
+.idea/
+.vscode/
+*.code-workspace
