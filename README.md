@@ -46,7 +46,7 @@ Hari libur ditandai dengan teks **merah** dan **bold**.
 3. Compile:
 
     ```bash
-    go build -o calendar
+    go build -o idKalender
     ```
 
 ---
@@ -56,8 +56,8 @@ Hari libur ditandai dengan teks **merah** dan **bold**.
 ### 1. Pasang binary ke sistem
 
 ```bash
-sudo cp calendar /usr/local/bin/
-sudo chmod +x /usr/local/bin/calendar
+sudo cp idKalender /usr/local/bin/
+sudo chmod +x /usr/local/bin/idKalender
 ````
 
 ### 2. Buat file shortcut `.desktop`
@@ -68,7 +68,7 @@ Buat file `~/.local/share/applications/lxqt-kalender.desktop` dengan isi berikut
 [Desktop Entry]
 Name=Kalender Indonesia LXQt
 Comment=Plugin kalender dengan hari libur Indonesia
-Exec=/usr/local/bin/calendar
+Exec=/usr/local/bin/idKalender
 Icon=calendar
 Terminal=false
 Type=Application
@@ -89,7 +89,7 @@ StartupNotify=true
 ### 4. (Opsional) Jalankan Otomatis Saat Login
 
 * Buka `LXQt Session Settings` → tab `Autostart`
-* Klik `Add` → isi dengan `/usr/local/bin/calendar`
+* Klik `Add` → isi dengan `/usr/local/bin/idKalender`
 * Simpan dan restart session LXQt
 
 ---
@@ -111,7 +111,7 @@ atau dari menu aplikasi setelah membuat shortcut.
 Untuk melihat log debug jalankan:
 
 ```bash
-calendar --debug
+idKalender --debug
 ```
 
 ---
